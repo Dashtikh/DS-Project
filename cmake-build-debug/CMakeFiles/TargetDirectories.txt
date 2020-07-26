@@ -1,0 +1,3 @@
+C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir
+C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/edit_cache.dir
