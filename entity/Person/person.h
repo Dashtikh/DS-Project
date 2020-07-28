@@ -14,6 +14,8 @@ class Relation;
 enum RelationType {
     Father, // from: Hesam is father of to: Parastu
     Mother, // from: Sevda is mother of to: Hesam
+    ChildFather, // from: Mohammad is child of to: Amir
+    ChildMother, // from: Khosro is child of to: Mina
 };
 
 class Person {
