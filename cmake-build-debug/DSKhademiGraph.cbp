@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug"/>
+				<Option working_dir="D:/DS/DS-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug"/>
+				<Option working_dir="D:/DS/DS-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSKhademiGraph">
-				<Option output="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/DSKhademiGraph.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug"/>
+				<Option output="D:/DS/DS-Project/cmake-build-debug/DSKhademiGraph.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DS/DS-Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +43,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSKhademiGraph"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSKhademiGraph"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DSKhademiGraph/fast">
-				<Option output="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/DSKhademiGraph.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug"/>
+				<Option output="D:/DS/DS-Project/cmake-build-debug/DSKhademiGraph.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DS/DS-Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,51 +65,57 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSKhademiGraph/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 DSKhademiGraph/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug"/>
+				<Option working_dir="D:/DS/DS-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/DS/DS-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Graph/graph.cpp">
+		<Unit filename="D:/DS/DS-Project/entity/Graph/BFS/BFS.cpp">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Graph/graph.h">
+		<Unit filename="D:/DS/DS-Project/entity/Graph/BFS/BFS.h">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Person/person.cpp">
+		<Unit filename="D:/DS/DS-Project/entity/Graph/graph.cpp">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Person/person.h">
+		<Unit filename="D:/DS/DS-Project/entity/Graph/graph.h">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Relation/relation.cpp">
+		<Unit filename="D:/DS/DS-Project/entity/Person/person.cpp">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Relation/relation.h">
+		<Unit filename="D:/DS/DS-Project/entity/Person/person.h">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/main.cpp">
+		<Unit filename="D:/DS/DS-Project/entity/Relation/relation.cpp">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/utils/Stack/stack.cpp">
+		<Unit filename="D:/DS/DS-Project/entity/Relation/relation.h">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/utils/Stack/stack.h">
+		<Unit filename="D:/DS/DS-Project/main.cpp">
 			<Option target="DSKhademiGraph"/>
 		</Unit>
-		<Unit filename="C:/Users/moham/CLionProjects/DSKhademiGraph/CMakeLists.txt">
+		<Unit filename="D:/DS/DS-Project/utils/Stack/stack.cpp">
+			<Option target="DSKhademiGraph"/>
+		</Unit>
+		<Unit filename="D:/DS/DS-Project/utils/Stack/stack.h">
+			<Option target="DSKhademiGraph"/>
+		</Unit>
+		<Unit filename="D:/DS/DS-Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

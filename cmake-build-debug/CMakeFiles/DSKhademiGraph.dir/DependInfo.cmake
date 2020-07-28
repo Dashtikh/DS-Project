@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Graph/graph.cpp" "C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Graph/graph.cpp.obj"
-  "C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Person/person.cpp" "C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Person/person.cpp.obj"
-  "C:/Users/moham/CLionProjects/DSKhademiGraph/entity/Relation/relation.cpp" "C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Relation/relation.cpp.obj"
-  "C:/Users/moham/CLionProjects/DSKhademiGraph/main.cpp" "C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/main.cpp.obj"
-  "C:/Users/moham/CLionProjects/DSKhademiGraph/utils/Stack/stack.cpp" "C:/Users/moham/CLionProjects/DSKhademiGraph/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/utils/Stack/stack.cpp.obj"
+  "D:/DS/DS-Project/entity/Graph/BFS/BFS.cpp" "D:/DS/DS-Project/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Graph/BFS/BFS.cpp.obj"
+  "D:/DS/DS-Project/entity/Graph/graph.cpp" "D:/DS/DS-Project/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Graph/graph.cpp.obj"
+  "D:/DS/DS-Project/entity/Person/person.cpp" "D:/DS/DS-Project/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Person/person.cpp.obj"
+  "D:/DS/DS-Project/entity/Relation/relation.cpp" "D:/DS/DS-Project/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/entity/Relation/relation.cpp.obj"
+  "D:/DS/DS-Project/main.cpp" "D:/DS/DS-Project/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/main.cpp.obj"
+  "D:/DS/DS-Project/utils/Stack/stack.cpp" "D:/DS/DS-Project/cmake-build-debug/CMakeFiles/DSKhademiGraph.dir/utils/Stack/stack.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

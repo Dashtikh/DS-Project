@@ -14,5 +14,5 @@ public:
     std::vector<Person> nodes;
     void push(Person node);
     Person pop();
-    Person DfsSearch(std::string id);
+    Person DfsSearch(int id);
 };

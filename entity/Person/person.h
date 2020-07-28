@@ -12,8 +12,8 @@
 class Relation;
 
 enum RelationType {
-    Father,
-    Wife,
+    Father, // from: Hesam is father of to: Parastu
+    Mother, // from: Sevda is mother of to: Hesam
 };
 
 class Person {
@@ -21,9 +21,9 @@ public:
     Person(
             std::string fName,
             std::string lName,
-            std::string nId,
+            int nId,
             bool s,
-            std::string pId):
+            int pId):
             firstName(fName),
             lastName(lName),
             id(nId),
@@ -31,20 +31,17 @@ public:
             partnerId(pId)
             {};
     std::string firstName, lastName;
-    std::string id;
+    // id is equal to the own index in the nodes vector and started with 0
+    int id;
     bool sex;
-//    int bDate, dDate;
-    std::string partnerId;
-    std::vector<Relation> relations;
-    void addRelation(std::string to, RelationType type);
-    void findMyChildren(std::string id, std::vector<Person>);
+    int bDate, dDate;
+    int partnerId;
 };
 
 class Relation {
 public:
-    Person* from;
-    Person* to;
-    Relation(Person* f, Person* t, RelationType rT):
-            from(f), to(t), type(rT) {};
+    int to;
+    Relation(int t, RelationType rT):
+             to(t), type(rT) {};
     RelationType type;
 };

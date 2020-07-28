@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\moham\CLionProjects\DSKhademiGraph
+CMAKE_SOURCE_DIR = D:\DS\DS-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\moham\CLionProjects\DSKhademiGraph\cmake-build-debug
+CMAKE_BINARY_DIR = D:\DS\DS-Project\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\moham\CLionProjects\DSKhademiGraph\cmake-build-debug\CMakeFiles C:\Users\moham\CLionProjects\DSKhademiGraph\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DS\DS-Project\cmake-build-debug\CMakeFiles D:\DS\DS-Project\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\moham\CLionProjects\DSKhademiGraph\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DS\DS-Project\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ DSKhademiGraph: cmake_check_build_system
 DSKhademiGraph/fast:
 	$(MAKE) -f CMakeFiles\DSKhademiGraph.dir\build.make CMakeFiles/DSKhademiGraph.dir/build
 .PHONY : DSKhademiGraph/fast
+
+entity/Graph/BFS/BFS.obj: entity/Graph/BFS/BFS.cpp.obj
+
+.PHONY : entity/Graph/BFS/BFS.obj
+
+# target to build an object file
+entity/Graph/BFS/BFS.cpp.obj:
+	$(MAKE) -f CMakeFiles\DSKhademiGraph.dir\build.make CMakeFiles/DSKhademiGraph.dir/entity/Graph/BFS/BFS.cpp.obj
+.PHONY : entity/Graph/BFS/BFS.cpp.obj
+
+entity/Graph/BFS/BFS.i: entity/Graph/BFS/BFS.cpp.i
+
+.PHONY : entity/Graph/BFS/BFS.i
+
+# target to preprocess a source file
+entity/Graph/BFS/BFS.cpp.i:
+	$(MAKE) -f CMakeFiles\DSKhademiGraph.dir\build.make CMakeFiles/DSKhademiGraph.dir/entity/Graph/BFS/BFS.cpp.i
+.PHONY : entity/Graph/BFS/BFS.cpp.i
+
+entity/Graph/BFS/BFS.s: entity/Graph/BFS/BFS.cpp.s
+
+.PHONY : entity/Graph/BFS/BFS.s
+
+# target to generate assembly for a file
+entity/Graph/BFS/BFS.cpp.s:
+	$(MAKE) -f CMakeFiles\DSKhademiGraph.dir\build.make CMakeFiles/DSKhademiGraph.dir/entity/Graph/BFS/BFS.cpp.s
+.PHONY : entity/Graph/BFS/BFS.cpp.s
 
 entity/Graph/graph.obj: entity/Graph/graph.cpp.obj
 
@@ -266,6 +293,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... DSKhademiGraph
 	@echo ... edit_cache
+	@echo ... entity/Graph/BFS/BFS.obj
+	@echo ... entity/Graph/BFS/BFS.i
+	@echo ... entity/Graph/BFS/BFS.s
 	@echo ... entity/Graph/graph.obj
 	@echo ... entity/Graph/graph.i
 	@echo ... entity/Graph/graph.s

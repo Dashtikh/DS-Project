@@ -12,12 +12,21 @@
 
 class Graph {
 public:
+    // nodes of graph
+    // includes nodes and relations
     std::vector<Person*> nodes;
-    Person* searchById(std::string id);
+    std::vector<Relation> *edges;
+
+    void addNode(Person* node);
+    void addEdge(int from, int to, RelationType type);
+
+    Person* BFS(int id);
+
     void addPerson(
             std::string fName,
             std::string lName,
-            std::string id,
+            int id,
             bool sex,
-            std::string pId);
+            int pId);
 };
+

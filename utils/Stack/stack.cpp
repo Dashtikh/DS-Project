@@ -13,6 +13,6 @@ Person Stack::pop() {
     nodes.pop_back();
 }
 
-Person Stack::DfsSearch(std::string id) {
+Person Stack::DfsSearch(int id) {
 
 }
